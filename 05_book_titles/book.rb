@@ -1,5 +1,6 @@
 class Book
-attr_accessor :title
+    attr_accessor :title
+    
     def initialize
         @title
     end
@@ -18,10 +19,4 @@ attr_accessor :title
         end
         final_array.join(" ")
     end
-
-
 end
-
-# mike = Person.new('Mike')
-# @book = Book.new
-# @book.title = "inferno"
